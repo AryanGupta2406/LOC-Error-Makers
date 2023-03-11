@@ -4,14 +4,14 @@ import Navbar2 from './components/Navbar2';
 import Community from './pages/Community';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
-import Quest from './pages/Quest';
+import Courses from './pages/Courses'
+import ProfileMain from './pages/ProfileMain'
 
 function App() {
   return (
     <div className="App">
                   <Navbar2 />
 
-      <PhoneIcon />
       {/* 
       
       */}
@@ -27,7 +27,6 @@ function App() {
 
 
       </Routes>
-      <Footer />
     </div>
   );
 }
