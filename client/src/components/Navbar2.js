@@ -40,8 +40,8 @@ const Navbar2 = () => {
                                         <a href='/blog' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                         blog
                                         </a>
-                                        <a href='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                        Quest
+                                        <a href='/courses' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        Courses
                                         </a>
                                         <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                         Try the Product
@@ -53,7 +53,7 @@ const Navbar2 = () => {
                             <Link to='/profile'>
                           <button
                         type="submit"
-                        class="w-full text-center py-3 rounded bg-green-400 text-black hover:bg-green-600 focus:outline-none my-1"
+                        class="w-full text-center py-3 rounded bg-black text-white px-3 hover:bg-green-600 focus:outline-none my-1"
                     >Create Account</button>
                     </Link>
                           </div>
@@ -71,11 +71,12 @@ const Navbar2 = () => {
                                     <div>
                                         <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                             <span className="sr-only">Open user menu</span>
-                                            <a><img
+                                            <Link to="/profilemain"><img
                                                 className="h-8 w-8 rounded-full"
                                                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                                                 alt=""/>
-                                                </a>
+                                                </Link>
+                                                
                                         </Menu.Button>
                                     </div>
                                     <Transition
@@ -91,7 +92,7 @@ const Navbar2 = () => {
                                             <Menu.Item>
                                                 {({ active }) => (
                                                     <a
-                                                        href="/" className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+ className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                                     >
                                                         Your Profile
                                                     </a>
