@@ -1,11 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-
+import Navbar2 from '../components/Navbar2'
 const Quest=()=> {
-    const navigate = useNavigate()
     return (
       <div>
           <Navbar2/>
-      <div/>
+          <h1>quest</h1>
+      </div>
   )
 }
+export default Quest
