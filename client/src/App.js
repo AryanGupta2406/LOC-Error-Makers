@@ -5,20 +5,29 @@ import Community from './pages/Community';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
 import Quest from './pages/Quest';
-
+import Blog from './pages/Blog';
+import Footer from './components/Footer';
+import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 function App() {
   return (
     <div className="App">
-      <Navbar2 />
-      {/* <Home/> */}
+                  <Navbar2 />
+
+      <PhoneIcon />
+      {/* 
+      
+      */}
       <Routes>
       <Route path='/community' element={<Community/>}/>
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/quest' element={<Quest/>}/>
       <Route path='/home' element={<Home/>}/>
+      <Route path='/blog' element={<Blog/>}/>
+
 
 
       </Routes>
+      <Footer />
     </div>
   );
 }
