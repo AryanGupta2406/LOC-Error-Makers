@@ -1,7 +1,9 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg'
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -29,16 +31,16 @@ const Navbar2 = () => {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <div className="flex font-dm font-medium">
 
-                                        <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        <Link to='/home' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                             Home
+                                        </Link>
+                                        <Link to='/community'  className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                            Community
+                                       </Link>
+                                        <a href='/blog' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        blog
                                         </a>
-                                        <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                            About Us
-                                        </a>
-                                        <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                        Subscribe
-                                        </a>
-                                        <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        <a href='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                         Quest
                                         </a>
                                         <a href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
@@ -47,6 +49,14 @@ const Navbar2 = () => {
                                     </div>
                                 </div>
                             </div>
+                          <div>
+                            <Link to='/profile'>
+                          <button
+                        type="submit"
+                        class="w-full text-center py-3 rounded bg-green-400 text-black hover:bg-green-600 focus:outline-none my-1"
+                    >Create Account</button>
+                    </Link>
+                          </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"
