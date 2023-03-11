@@ -1,5 +1,5 @@
-import React from 'react'
-c
+import React , {useNavigate} from 'react'
+
 import ImageCarousel from '../components/ImageCarousel'
 import LiveWave from '../components/LiveWave'
 import Navbar2 from '../components/Navbar2'
