@@ -1,9 +1,12 @@
 import './App.css';
-
+import Home from './pages/Home'
+import Quest from './pages/Quest'
 function App() {
   return (
     <div className="App">
-      <p className='font-bold text-3xl'>Hi</p>
+      <Home/>
+      <Quest/>
+
     </div>
   );
 }
