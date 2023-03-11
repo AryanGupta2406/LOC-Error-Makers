@@ -18,6 +18,7 @@ const Quest = () => {
           </p>
         </div>
         <br />
+
       </div>
       <div className="grid grid-cols-3 lg:flex-row  ">
         <div class='flex-auto mt-6'>
