@@ -11,9 +11,9 @@ import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 function App() {
   return (
     <div className="App">
-                  <Navbar2 />
+                  {/* <Navbar2 /> */}
 
-      <PhoneIcon />
+      {/* <PhoneIcon /> */}
       {/* 
       
       */}
@@ -27,7 +27,7 @@ function App() {
 
 
       </Routes>
-      <Footer />
+      
     </div>
   );
 }
