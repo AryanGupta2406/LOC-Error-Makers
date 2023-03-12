@@ -10,13 +10,14 @@ const Home=()=> {
     <div>
                         <Navbar2 />
 
+
 <section class="text-gray-700 body-font bg-[#008080]">
   <div class="container mx-auto flex px-5 lg:py-8 lg:px-4 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:ml-4">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-black font-dm">LensLuxe
 
       </h1>
-      <p class="mb-8 leading-relaxed font-medium font-dm text-black">"Welcome to LensLuxe, the ultimate platform for photographers to connect, learn, and showcase their talent. Here, you can network with fellow photographers from all over the world, showcase your best work, and learn from industry experts.Whether you're a seasoned professional or just starting out, [website name] is the perfect place to grow your skills and elevate your photography career."</p>
+      <p class="mb-8 leading-relaxed font-medium font-dm text-black text-xl">"Welcome to LensLuxe, the ultimate platform for photographers to connect, learn, and showcase their talent. Here, you can network with fellow photographers from all over the world, showcase your best work, and learn from industry experts.Whether you're a seasoned professional or just starting out, LensLuxe is the perfect place to grow your skills and elevate your photography career."</p>
       {/* <div class="flex justify-center">
         <button class="inline-flex text-black bg-white py-2 px-6 focus:outline-none rounded text-lg font-dm border-black border-2 font-medium hover:bg-[#ff7f50]">Try FacePilot</button>
         <button class="border-black border-2 font-medium ml-4 inline-flex text-black font-dm bg-[#008080] py-2 px-6 focus:outline-none rounded text-lg hover:bg-[#ff7f50]">Documentation</button>
@@ -31,7 +32,7 @@ const Home=()=> {
 <section class="text-gray-700 body-font border-t border-gray-200">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h2 class="font-dm text-xs text-black tracking-widest font-medium title-font mb-1">API FEATURES</h2>
+      <h2 class="font-dm text-xs text-black tracking-widest font-medium title-font mb-1">Photography</h2>
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-black font-dm">EXPLORE OUR SERVICES</h1>
     </div>
     <div class="flex flex-wrap -m-4">
@@ -43,7 +44,7 @@ const Home=()=> {
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg>
             </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Human Detection</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Competition</h2>
           </div>
           <div class="flex-grow">
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
@@ -64,7 +65,7 @@ const Home=()=> {
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
             </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Gender Classification</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Community</h2>
           </div>
           <div class="flex-grow">
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
@@ -86,7 +87,7 @@ const Home=()=> {
                 <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
               </svg>
             </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Analytics</h2>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Gallery</h2>
           </div>
           <div class="flex-grow">
             <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
