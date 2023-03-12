@@ -21,7 +21,7 @@ const Community = () => {
 
                 <div class="grid grid-cols-9 bg-[#008080]">
                     <div class="col-span-7  top-0">
-                        <h1 class="mt-4 mb-4 text-xl">Activity feed</h1>
+                        <h1 class="mt-4 mb-4 text-3xl font-bold text-white">Activity feed</h1>
                         {/* <PhoneIcon />
                         <AddIcon boxSize={6} />
                         <WarningIcon w={8} h={8} color="red.500" /> */}
@@ -65,7 +65,7 @@ const Community = () => {
                                                 Macro Photography!
                                             </a>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
-                                            <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <span class="text-sm text-gray-500 dark:text-gray-300">Aakash Goradia</span>
                                             <div class="flex items-center mx-12 ">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -95,20 +95,20 @@ const Community = () => {
                                                 Shot on new Sony 12-24 mm f2.8 G Master
                                             </a>
 
-                                            <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <span class="text-sm text-gray-500 dark:text-gray-300">Peter McKenin</span>
                                             <div class="flex items-center mx-12 mt-2">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">250000</span>
+                                                    <span class="text-gray-500 ml-1">2500</span>
                                                 </button>
 
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">9264</span>
+                                                    <span class="text-gray-500 ml-1">926</span>
                                                 </button>
                                             </div>
                                         </div>
@@ -123,13 +123,13 @@ const Community = () => {
                                             <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
                                             Retro Photogtraphy!</a>
 
-                                            <span class="text-sm text-gray-500 dark:text-gray-300">On: 25 November 2020</span>
+                                            <span class="text-sm text-gray-500 dark:text-gray-300">Aryan Gupta</span>
                                             <div class="flex items-center mx-12 mt-2">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">2590</span>
+                                                    <span class="text-gray-500 ml-1">259</span>
                                                 </button>
 
                                                 <button>
@@ -150,13 +150,13 @@ const Community = () => {
                                                 HDR is the new standard!
                                             </a>
 
-                                            <span class="text-sm  text-gray-500 dark:text-gray-300">On: 30 September 2020</span>
+                                            <span class="text-sm  text-gray-500 dark:text-gray-300">Krisha Borana</span>
                                             <div class="flex items-center mx-12 mt-2">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">25342</span>
+                                                    <span class="text-gray-500 ml-1">253</span>
                                                 </button>
 
                                                 <button>
@@ -177,13 +177,13 @@ const Community = () => {
                                                 Drones change your POV!!
                                             </a>
 
-                                            <span class="text-sm text-gray-500 dark:text-gray-300">On: 13 October 2019</span>
+                                            <span class="text-sm text-gray-500 dark:text-gray-300">Merul Shah</span>
                                             <div class="flex items-center mx-12 ">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">23891</span>
+                                                    <span class="text-gray-500 ml-1">238</span>
                                                 </button>
 
                                                 <button>
@@ -204,13 +204,13 @@ const Community = () => {
                                                 Mirrorless is best!!!!
                                             </a>
 
-                                            <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <span class="text-sm text-gray-500 dark:text-gray-300">Sohail Karmani</span>
                                             <div class="flex items-center align-middle  mx-12 mt-2">
                                                 <button>
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                                     </svg>
-                                                    <span class="text-gray-500 ml-1">2390</span>
+                                                    <span class="text-gray-500 ml-1">239</span>
                                                 </button>
 
                                                 <button>

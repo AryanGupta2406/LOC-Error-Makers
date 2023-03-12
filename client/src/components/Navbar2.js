@@ -45,11 +45,13 @@ const Navbar2 = () => {
                                         <Link to='/courses' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                             Courses
                                         </Link>
-
                                         <Link to='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                        Quest
+                                            Quest
                                         </Link>
-                                      <div >
+                                        <Link to='/gallery' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                            Gallery
+                                        </Link>
+                                      {/* <div >
                                       <div class="relative inline-block text-left">
   <div>
     <button type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
@@ -73,7 +75,7 @@ const Navbar2 = () => {
   </div>
 </div>
 
-                                      </div>
+                                      </div> */}
                                         {/* <div class="relative inline-block text-left"> */}
  
   
@@ -104,11 +106,11 @@ const Navbar2 = () => {
                                         <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                                             <span className="sr-only">Open user menu</span>
                                             
-                                            <link to="/profilemain"><img
+                                            <Link to="/profilemain"><img
                                                 className="h-8 w-8 rounded-full"
                                                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                                                 alt=""/>
-                                                </link>
+                                                </Link>
                                             
                                         </Menu.Button>
                                     </div>

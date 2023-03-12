@@ -11,7 +11,7 @@ import Image22 from "../assets/senad-palic-Yyjs1z15Q_0-unsplash.jpg"
 import Image23 from "../assets/julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg"
 import Image24 from "../assets/devin-avery-VBBs_SWsdwU-unsplash.jpg"
 import Image25 from "../assets/alexander-zvir-AELxxNHdvtA-unsplash.jpg"
-import Navbar2 from "../components/Navbar2";
+// import Navbar2 from "../components/Navbar2";
 import { Link } from 'react-router-dom';
 const Courses = () => {
   return (
@@ -35,7 +35,7 @@ const Courses = () => {
         <Link to = "/Overview">
         <div class='flex-auto mt-6'>
            <Card maxW="sm" className="">
-          <CardBody className="mx-4 border-2">
+          <CardBody className="mx-4 ">
             <Image
               src={Image25}
               alt="Green double couch with wooden legs"
@@ -218,7 +218,6 @@ const Courses = () => {
         </div>
         
       </div>
-
       <Footer />
 
     </div>
