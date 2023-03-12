@@ -19,6 +19,7 @@ function App() {
       
       */}
       <Routes>
+
       <Route path='/community' element={<Community/>}/>
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/courses' element={<Courses/>}/>
@@ -33,9 +34,7 @@ function App() {
 
 
       </Routes>
-      
     </div>
   );
 }
-
 export default App;
