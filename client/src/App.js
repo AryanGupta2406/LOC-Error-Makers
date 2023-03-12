@@ -8,6 +8,7 @@ import Courses from './pages/Courses'
 import ProfileMain from './pages/ProfileMain'
 import Blog from './pages/Blog'
 import Gallery from './pages/Gallery'
+import Quest from './pages/Quest'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Route path='/community' element={<Community/>}/>
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/courses' element={<Courses/>}/>
-      <Route path=' ' element={<Home/>}/>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='' element={<Home/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/profilemain' element={<ProfileMain/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
