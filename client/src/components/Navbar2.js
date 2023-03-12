@@ -48,6 +48,9 @@ const Navbar2 = () => {
                                         <Link to='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                             Quest
                                         </Link>
+                                        <Link to='/gallery' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                            Gallery
+                                        </Link>
                                       {/* <div >
                                       <div class="relative inline-block text-left">
   <div>

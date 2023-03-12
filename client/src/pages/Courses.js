@@ -35,7 +35,7 @@ const Courses = () => {
         <Link to = "/Overview">
         <div class='flex-auto mt-6'>
            <Card maxW="sm" className="">
-          <CardBody className="mx-4 border-2">
+          <CardBody className="mx-4 ">
             <Image
               src={Image25}
               alt="Green double couch with wooden legs"
@@ -218,7 +218,6 @@ const Courses = () => {
         </div>
         
       </div>
-
       <Footer />
 
     </div>
