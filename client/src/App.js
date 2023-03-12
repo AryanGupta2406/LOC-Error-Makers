@@ -23,7 +23,7 @@ function App() {
       <Route path='/community' element={<Community/>}/>
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/courses' element={<Courses/>}/>
-      <Route path='/home' element={<Home/>}/>
+      <Route path=' ' element={<Home/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/profilemain' element={<ProfileMain/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
