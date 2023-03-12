@@ -6,7 +6,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 import Comm1 from '../assets/comm1.png';
-import Comm2 from '../assets/comm2.png';
+import Comm2 from '../assets/comm2-min.png';
 import Comm3 from '../assets/comm3.png';
 import Comm4 from '../assets/comm4.png';
 import Comm5 from '../assets/comm5.png';
