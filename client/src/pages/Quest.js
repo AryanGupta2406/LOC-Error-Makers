@@ -1,6 +1,8 @@
 import React from "react";
 // import Image10 from "../assets/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg";
 import Image11 from "../assets/jeshoots-com-p8kaVRe4edM-unsplash (1).jpg";
+//import Image10 from "../assets/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg";
+//import Image11 from "../assets/jeshoots-com-p8kaVRe4edM-unsplash (1).jpg";
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, ButtonGroup, Button } from "@chakra-ui/react";
 import Image30 from "../assets/paul-gaudriault-cwy9yVBBPxg-unsplash.jpg"
 import Image31 from "../assets/christian-wiediger-gVbOF8mdE3U-unsplash.jpg"
@@ -16,7 +18,7 @@ const Quest = () => {
       <Navbar2 />
       <div>
         
-        <div className=" text-white mx-auto bg-[url('../public/ashkan-forouzani-uQuOaLiElLI-unsplash.jpg')] h-96  bg-no-repeat bg-cover" >
+        <div className=" text-white mx-auto bg-[url('../public/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg')] h-96  bg-no-repeat bg-cover" >
           <h3 className="text-left text-6xl ml-6 text-white bottom-6  pt-24 font-bold">Quests</h3>
           <br />
           <p className="ml-6 text-2xl  text-left w-5/12 mt-4 font-serif">
