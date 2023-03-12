@@ -2,91 +2,88 @@ import React from "react";
 // import Image10 from "../assets/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg";
 import Image11 from "../assets/jeshoots-com-p8kaVRe4edM-unsplash (1).jpg";
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, ButtonGroup, Button } from "@chakra-ui/react";
-import Image20 from "../assets/william-thomas-ny6tO4ItOEY-unsplash.jpg"
-import Image21 from "../assets/wan-san-yip-tLK02oHjT8c-unsplash.jpg"
-import Image22 from "../assets/senad-palic-Yyjs1z15Q_0-unsplash.jpg"
-import Image23 from "../assets/julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg"
-import Image24 from "../assets/devin-avery-VBBs_SWsdwU-unsplash.jpg"
-import Image25 from "../assets/alexander-zvir-AELxxNHdvtA-unsplash.jpg"
+import Image30 from "../assets/paul-gaudriault-cwy9yVBBPxg-unsplash.jpg"
+import Image31 from "../assets/christian-wiediger-gVbOF8mdE3U-unsplash.jpg"
+import Image32 from "../assets/jeff-hopper-iCtJF-A5hvs-unsplash.jpg"
+import Image33 from "../assets/hanny-naibaho--3savqescr8-unsplash.jpg"
+import Image34 from "../assets/james-adams-x0rJ-rzX7S8-unsplash.jpg"
+import Image35 from "../assets/william-thomas-ny6tO4ItOEY-unsplash.jpg"
 import Navbar2 from "../components/Navbar2";
-import { Link } from 'react-router-dom';
-const Courses = () => {
+
+const Quest = () => {
   return (
     <div>
       <Navbar2 />
       <div>
         
-        <div className=" text-white mx-auto bg-[url('../public/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg')] h-96  bg-no-repeat bg-cover" >
-          <h3 className="text-left text-6xl ml-6 text-white bottom-6  pt-24 font-bold">Courses</h3>
+        <div className=" text-white mx-auto bg-[url('../public/ashkan-forouzani-uQuOaLiElLI-unsplash.jpg')] h-96  bg-no-repeat bg-cover" >
+          <h3 className="text-left text-6xl ml-6 text-white bottom-6  pt-24 font-bold">Quests</h3>
           <br />
           <p className="ml-6 text-2xl  text-left w-5/12 mt-4 font-serif">
-            Challenges to help photographers test their skills,get recognized
-            for their work,and win exciting prizes.
+          Elevate your photography game with our competition page for photographers.Our competition page for photographers is the ultimate destination to showcase your talent and creativity. Join now to take your first step towards recognition!
           </p>
         </div>
         <br />
 
       </div>
       <div className="grid grid-cols-3 lg:flex-row ml-[5rem]">
-        <Link to = "/Overview">
         <div class='flex-auto mt-6'>
            <Card maxW="sm" className="">
-          <CardBody className="mx-4 border-2">
+          <CardBody className="mx-4">
             <Image
-              src={Image25}
+              src={Image30}
               alt="Green double couch with wooden legs"
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Snap MasterClass</Heading>
+              <Heading size="md">Shutter Showdown</Heading>
               <Text>
-              Snap MasterClass is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              Show off your best captures and compete against some of the world's most talented photographers in this ultimate showdown of visual creativity.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $9
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                250+ registered
               </Button>
             </ButtonGroup>
           </CardFooter>
         </Card>
         </div>
-        </Link>
         <div class=' flex-auto mt-6'>
         <Card maxW="sm">
           <CardBody className="mx-4">
             <Image
-              src={Image24}
+              src={Image31}
               alt="Green double couch with wooden legs"
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Captured Vision</Heading>
+              <Heading size="md">Click Clash</Heading>
               <Text>
-              CapturedVision is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              Bring your photography skills to the forefront and enter the Click Clash competition for a chance to win amazing prizes while showcasing your artistic vision.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $49
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                100+ registered
               </Button>
             </ButtonGroup>
           </CardFooter>
@@ -96,27 +93,27 @@ const Courses = () => {
            <Card maxW="sm">
           <CardBody className="mx-4">
             <Image
-              src={Image22}
+              src={Image32}
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Pixel Pro</Heading>
+              <Heading size="md">Aperture Awards</Heading>
               <Text>
-              Pixel Pro is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              This competition celebrates the art of photography, recognizing outstanding works and talented artists who have a passion for capturing world through lens.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $79
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                1000+ registered
               </Button>
             </ButtonGroup>
           </CardFooter>
@@ -126,27 +123,27 @@ const Courses = () => {
            <Card maxW="sm">
           <CardBody className="mx-4">
             <Image
-              src={Image21}
-              borderRadius="lg"
+              src={Image33}
+              borderRadius="lg" 
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">LensCrafters</Heading>
+              <Heading size="md">Flash Frenzy</Heading>
               <Text>
-              LensCrafters is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              Get ready to dazzle the world with your creativity and join Flash Frenzy, the ultimate competition for photographers who are ready to show off their best work and win big.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $45
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                500+ reistered
               </Button>
             </ButtonGroup>
           </CardFooter>
@@ -156,27 +153,27 @@ const Courses = () => {
            <Card maxW="sm">
           <CardBody className="mx-4">
             <Image
-              src={Image20}
+              src={Image34}
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">PicturePerfect Academy</Heading>
+              <Heading size="md">Lens Legends</Heading>
               <Text>
-              PicturePerfect Academy is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              The ultimate platform to showcase your creative vision through the art of photography. Submit your best work to be featured in the gallery and compete for the title of the best photographer.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $119
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                899+ registered
               </Button>
             </ButtonGroup>
           </CardFooter>
@@ -186,27 +183,27 @@ const Courses = () => {
            <Card maxW="sm">
           <CardBody className="mx-4">
             <Image
-              src={Image23}
+              src={Image35}
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md">Shutter School</Heading>
+              <Heading size="md">Pixel Playoffs</Heading>
               <Text>
-              Shutter is the perfect course for photographers looking to take their creativity to the next level. Learn how to capture your unique vision and develop your own personal style.
+              Show off your photographic skills in the Pixel Playoffs, where you'll compete against some of the world's most talented photographers for a chance to win and gain recognition for your work.
               </Text>
-              <Text color="blue.600" fontSize="2xl">
+              {/* <Text color="blue.600" fontSize="2xl">
                 $99
-              </Text>
+              </Text> */}
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
               <Button variant="solid" colorScheme="blue">
-                Buy now
+                Enroll
               </Button>
               <Button variant="ghost" colorScheme="blue">
-                Add to cart
+                251+ registered
               </Button>
             </ButtonGroup>
           </CardFooter>
@@ -367,4 +364,4 @@ const Courses = () => {
     </div>
   );
 };
-export default Courses;
+export default Quest;

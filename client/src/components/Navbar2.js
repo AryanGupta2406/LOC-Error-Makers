@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 const Navbar2 = () => {
     return (
-        <Disclosure as="nav" className="bg-[#ff7f50] border-b-[1.5px] border-black sticky top-0">
+        <Disclosure as="nav" className="bg-[#ff7f50] border-b-[1.5px] border-black top-0">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,13 +38,13 @@ const Navbar2 = () => {
                                             Community
                                        </Link>
                                         <Link to='/blog' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                        blog
+                                        Blog
                                         </Link>
                                         <Link to='/courses' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                         Courses
                                         </Link>
-                                        <Link href='/' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                        Try the Product
+                                        <Link to='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        Quest
                                         </Link>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ const Navbar2 = () => {
                             <Link to='/profile'>
                           <button
                         type="submit"
-                        class="w-full text-center py-3 rounded bg-black text-white px-3 hover:bg-green-600 focus:outline-none my-1"
+                        class="w-full text-center py-3 rounded bg-black text-white px-3 hover:border-white focus:outline-none my-1"
                     >Create Account</button>
                     </Link>
                           </div>
