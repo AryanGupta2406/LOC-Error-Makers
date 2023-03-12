@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar2 from '../components/Navbar2';
+import Footer from '../components/Footer';
 
 const Profile = () => {
   return (
     <>
-   
-<div class="bg-grey-lighter min-h-screen flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500
-    h-screen">
+                            <Navbar2 />
+
+<div class="bg-grey-lighter min-h-screen flex flex-col">
             <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
                     <h1 class="mb-8 text-3xl text-center">Sign up</h1>
@@ -116,6 +118,8 @@ const Profile = () => {
   </div>
 </div>
     </div> */}
+      <Footer />
+
     </>
   )
 }

@@ -1,10 +1,24 @@
 import React from 'react'
+import Navbar2 from '../components/Navbar2';
+import { Fragment } from 'react'
+import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.svg';
+import Comm1 from '../assets/comm1.png';
+import Comm2 from '../assets/comm2.png';
+import Comm3 from '../assets/comm3.png';
+import Comm4 from '../assets/comm4.png';
+import Comm5 from '../assets/comm5.png';
+import Comm6 from '../assets/comm6.png';
 
 // import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 const Community = () => {
     return (
         <>
             <div>
+                
+
                 <div class="grid grid-cols-9 bg-[#008080]">
                     <div class="col-span-7  top-0">
                         <h1 class="mt-4 mb-4 text-xl">Activity feed</h1>
@@ -44,90 +58,183 @@ const Community = () => {
 
 
                                     <div class="lg:flex flex-row border-2  bg-[#99cccc] rounded-lg">
-                                        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                                        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm1} alt="" />
 
                                         <div class="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                How to use sticky note for problem solving
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Macro Photography!
                                             </a>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
                                             <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <div class="flex items-center mx-12 ">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">2675</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">125</span>
+                                                </button>
+                                            </div>
+
                                             <div class=''></div>
 
                                         </div>
                                     </div>
 
                                     <div class="lg:flex border-2 bg-[#99cccc] rounded-lg">
-                                        <img class="object-cover  w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                                        <img class="object-cover  w-full h-56 rounded-lg lg:w-64" src={Comm2} alt="" />
 
                                         <div class="flex flex-col  justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                How to use sticky note for problem solving
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Shot on new Sony 12-24 mm f2.8 G Master
                                             </a>
 
                                             <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <div class="flex items-center mx-12 mt-2">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">250000</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">9264</span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
 
+
+
                                     <div class="lg:flex border-2 bg-[#99cccc]  ml-1 rounded-lg">
-                                        <img class="object-cover   w-full h-56  rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1544654803-b69140b285a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                                        <img class="object-cover   w-full h-56  rounded-lg lg:w-64" src={Comm3} alt="" />
 
                                         <div class="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                Morning routine to boost your mood
-                                            </a>
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                            Retro Photogtraphy!</a>
 
                                             <span class="text-sm text-gray-500 dark:text-gray-300">On: 25 November 2020</span>
+                                            <div class="flex items-center mx-12 mt-2">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">2590</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">63</span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="lg:flex border-2 bg-[#99cccc] rounded-lg ">
-                                        <img class="object-cover   w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1530099486328-e021101a494a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80" alt="" />
+                                        <img class="object-cover   w-full h-56 rounded-lg lg:w-64" src={Comm4} alt="" />
 
-                                        <div class="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                All the features you want to know
+                                        <div class="flex flex-col justify-between py-6 lg:px-2">
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                HDR is the new standard!
                                             </a>
 
                                             <span class="text-sm  text-gray-500 dark:text-gray-300">On: 30 September 2020</span>
+                                            <div class="flex items-center mx-12 mt-2">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">25342</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">97</span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80" alt="" />
+                                        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div class="flex flex-col  justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                Minimal workspace for your inspirations
+                                        <div class="flex flex-col  justify-between py-6 lg:px-2">
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Drones change your POV!!
                                             </a>
 
                                             <span class="text-sm text-gray-500 dark:text-gray-300">On: 13 October 2019</span>
+                                            <div class="flex items-center mx-12 ">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">23891</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">289</span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img class="object-cover   rounded-lg w-full h-56  lg:w-64" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                                        <img class="object-cover   rounded-lg w-full h-56  lg:w-64" src={Comm6} alt="" />
 
                                         <div class="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                                                What do you want to know about Blockchane
+                                            <a href="#" class="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Mirrorless is best!!!!
                                             </a>
 
                                             <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                                            <div class="flex items-center align-middle  mx-12 mt-2">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">2390</span>
+                                                </button>
+
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                    </svg>
+                                                    <span class="text-gray-500 ml-1">235</span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </section>
                     </div>
-                    <div class="col-span-2  mt-4 mx-4 inset-y-0 left-0">
+                    <div class="col-span-2 w-64 fixed right-0">
                         {/* left side */}
 
 
-                        <div class="max-w-2xl  mt-6 mr-2mx-auto flex flex-col items-center ml-2">
+                        <div class="max-w-2xl hover:bg-fixed flex flex-col items-center ml-2">
 
-                            <aside class="w-full mt-6" aria-label="Sidebar mr-2">
-                                <div class="px-3 py-4 overflow-y-auto rounded bg-gray-50 dark:bg-gray-800">
+                            <aside class="w-full" aria-label="Sidebar">
+                                <div class="px-3 py-4 overflow-y-auto rounded h-screen bg-gray-50 dark:bg-gray-800">
                                     <ul class="space-y-2">
                                         <li>
                                             <a href="#"

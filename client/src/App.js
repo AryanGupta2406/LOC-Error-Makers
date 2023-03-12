@@ -10,8 +10,9 @@ import ProfileMain from './pages/ProfileMain'
 function App() {
   return (
     <div className="App">
-                  <Navbar2 />
+                  {/* <Navbar2 /> */}
 
+      {/* <PhoneIcon /> */}
       {/* 
       
       */}
@@ -27,6 +28,7 @@ function App() {
 
 
       </Routes>
+      
     </div>
   );
 }
