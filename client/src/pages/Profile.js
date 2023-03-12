@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar2 from "../components/Navbar2";
+import Navbar2 from '../components/Navbar2';
+import Footer from '../components/Footer';
+
 
 const Profile = () => {
   return (
     <>
-         <Navbar2 />
+                            <Navbar2 />
 
 <div class="bg-grey-lighter min-h-screen flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500
     h-screen">
@@ -118,6 +120,8 @@ const Profile = () => {
   </div>
 </div>
     </div> */}
+      <Footer />
+
     </>
   )
 }

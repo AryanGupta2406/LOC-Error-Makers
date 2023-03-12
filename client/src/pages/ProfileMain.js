@@ -5,6 +5,7 @@ import Image22 from "../assets/senad-palic-Yyjs1z15Q_0-unsplash.jpg";
 import Image23 from "../assets/julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg";
 import Image24 from "../assets/devin-avery-VBBs_SWsdwU-unsplash.jpg";
 import Image25 from "../assets/alexander-zvir-AELxxNHdvtA-unsplash.jpg";
+
 import Navbar2 from "../components/Navbar2";
 
 const names = [Image21, Image22, Image23, Image24, Image25];
@@ -14,6 +15,7 @@ const ProfileMain = () => {
     <div
       class=" bg-gradient-to-r from-cyan-500 to-blue-500
     h-screen"
+
     >         <Navbar2 />
 
       <div class="relative mx-auto md:max-w-2xl  bg-white min-w-0 break-words  w-screen mb-6 shadow-lg rounded-xl top-24">
