@@ -39,13 +39,15 @@ const Navbar2 = () => {
                                             Community
                                         </Link>
                                         <Link to='/blog' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                            Blog
+
+                                        Blog
                                         </Link>
                                         <Link to='/courses' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
                                             Courses
                                         </Link>
-                                        <Link to='' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
-                                            
+
+                                        <Link to='/quest' className='text-black hover:bg-gray-200 p-2 hover:rounded-full mr-4 lg:mr-8'>
+                                        Quest
                                         </Link>
                                       <div >
                                       <div class="relative inline-block text-left">
@@ -86,6 +88,7 @@ const Navbar2 = () => {
                                     >Create Account</button>
                                 </Link>
                             </div>
+
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <button
                                     type="button"

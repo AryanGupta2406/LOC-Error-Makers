@@ -4,20 +4,19 @@ import {Route,Routes} from 'react-router-dom'
 import Community from './pages/Community';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
+import Blog from './pages/Blog';
 import Courses from './pages/Courses'
 import ProfileMain from './pages/ProfileMain'
 import Blog from './pages/Blog'
 import Gallery from './pages/Gallery'
+import Quest from './pages/Quest'
+import Overview from './pages/Overview'
 
 function App() {
   return (
     <div className="App">
                   {/* <Navbar2 /> */}
-
-      {/* <PhoneIcon /> */}
-      {/* 
       
-      */}
       <Routes>
 
       <Route path='/community' element={<Community/>}/>
@@ -27,11 +26,10 @@ function App() {
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/profilemain' element={<ProfileMain/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
-
+      <Route path='/blog' element={<Blog/>}/>    
+      <Route path='/quest' element={<Quest/>}/> 
+      <Route path='/overview' element={<Overview/>}/>
       
-
-
-
 
       </Routes>
     </div>

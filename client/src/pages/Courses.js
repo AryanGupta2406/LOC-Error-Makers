@@ -11,13 +11,13 @@ import Image22 from "../assets/senad-palic-Yyjs1z15Q_0-unsplash.jpg"
 import Image23 from "../assets/julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg"
 import Image24 from "../assets/devin-avery-VBBs_SWsdwU-unsplash.jpg"
 import Image25 from "../assets/alexander-zvir-AELxxNHdvtA-unsplash.jpg"
-
-
+import Navbar2 from "../components/Navbar2";
+import { Link } from 'react-router-dom';
 const Courses = () => {
   return (
     <div>
-                              <Navbar2 />
 
+      <Navbar2 />
       <div>
         
         <div className=" text-white mx-auto bg-[url('../public/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg')] h-96  bg-no-repeat bg-cover" >
@@ -32,6 +32,7 @@ const Courses = () => {
 
       </div>
       <div className="grid grid-cols-3 lg:flex-row ml-[5rem]">
+        <Link to = "/Overview">
         <div class='flex-auto mt-6'>
            <Card maxW="sm" className="">
           <CardBody className="mx-4 border-2">
@@ -63,6 +64,7 @@ const Courses = () => {
           </CardFooter>
         </Card>
         </div>
+        </Link>
         <div class=' flex-auto mt-6'>
         <Card maxW="sm">
           <CardBody className="mx-4">
